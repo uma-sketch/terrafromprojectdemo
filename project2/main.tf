@@ -29,3 +29,4 @@ module "windows_vm" {
   admin_password      = var.admin_password
 }
 
+
