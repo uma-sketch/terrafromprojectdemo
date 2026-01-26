@@ -4,6 +4,7 @@ variable "location" {}
 variable "resource_group_name" {}
 variable "subnet_id" {}
 variable "lb_backend_pool_id" {}
-variable "vm_size" { default = "Standard_D4s_v3" }
+variable "vm_size" { default = "Standard_B1s" }
 variable "admin_username" {}
 variable "admin_password" { sensitive = true }
+
