@@ -20,7 +20,7 @@ module "loadbalancer" {
 module "windows_vm" {
   source              = "./modules/windows-vm"
   vm_name             = "app-vm"
-  vm_count            = 2
+  vm_count            = 1
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   subnet_id           = module.network.subnet_id
@@ -28,3 +28,4 @@ module "windows_vm" {
   admin_username      = "azureadmin"
   admin_password      = var.admin_password
 }
+
