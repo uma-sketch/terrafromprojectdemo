@@ -1,1 +1,1 @@
-admin_password = "StrongPassword@123"
+admin_password = "StrongPassword@123256"
